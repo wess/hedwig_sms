@@ -24,7 +24,7 @@ defmodule HedwigSMS.Mixfile do
   defp deps do
     [
       {:hedwig, github: "hedwig-im/hedwig"},
-      {:httpoison, "~> 0.8.0"},
+      {:httpoison, "~> 0.10.0"},
       {:cowboy, "~> 1.0", optional: true},
       {:plug, "~> 1.2", optional: true},
       {:earmark, "~> 1.0", only: :dev },
